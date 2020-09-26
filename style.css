@@ -1,0 +1,93 @@
+body{
+background-color: black;
+color: white;
+font-size: 15px;
+font-family:"Times";
+}
+
+a{
+color: lightBlue;
+text-decoration: none;
+}
+
+img{
+border: white;
+border-radius: 50px;
+}
+
+.navbar .maincont{
+padding-left: 0;
+background-color: cadetblue;
+border-radius: 15px;
+}
+
+.navbar .morecont{
+padding-left: 0;
+margin-top: -16px;
+background-color: darkcyan;
+display: none;
+}
+
+.maincont li, .morecont li{
+list-style-type: none;
+display: inline-block;
+padding: 12px 0 12px 0;
+font-size: 17.5px;
+}
+
+.morecont li{
+font-size: 15px;
+}
+
+.navbar a{
+padding: 0 15px 0 15px;
+color: whitesmoke;
+text-shadow: 0 0 4px black;
+}
+
+.navbar .maincont a:hover, .navbar .maincont a:visited{
+background-color: darkcyan;
+padding: 12px 15px 12px 15px;
+}
+
+.khusus{
+border-radius: 15px 0 0 15px;
+}
+
+.navbar .morecont a:hover, .navbar .morecont a:visited{
+background-color: darkslategray;
+padding: 12px 15px 12px 15px;
+}
+
+.header{
+background-image: url("/sdcard/df-background.png");
+background-size: cover;
+background-position: 0 -25px;
+}
+
+.header h2{
+text-align: center;
+}
+
+.prev{
+font-weight: bold;
+}
+
+.next{
+text-align: right;
+font-weight: bold;
+}
+
+.no{
+font-weight: normal;
+}
+
+.shaderTitle{
+text-align: center;
+}
+
+.imgb{
+background-image: url("/sdcard/Pack Logo/df_shader_logo_third_1024.jpg");
+background-size: contain;
+}
+
